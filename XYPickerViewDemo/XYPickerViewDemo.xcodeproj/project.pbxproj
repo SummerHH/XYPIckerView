@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180BB1C31FE7E4DE00604F5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 180BB1C21FE7E4DE00604F5D /* AppDelegate.m */; };
+		180BB1C61FE7E4DE00604F5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180BB1C51FE7E4DE00604F5D /* ViewController.m */; };
+		180BB1C91FE7E4DE00604F5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180BB1C71FE7E4DE00604F5D /* Main.storyboard */; };
+		180BB1CB1FE7E4DE00604F5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180BB1CA1FE7E4DE00604F5D /* Assets.xcassets */; };
+		180BB1CE1FE7E4DE00604F5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180BB1CC1FE7E4DE00604F5D /* LaunchScreen.storyboard */; };
+		180BB1D11FE7E4DE00604F5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 180BB1D01FE7E4DE00604F5D /* main.m */; };
+		180BB1E81FE7E7DD00604F5D /* XYAddressCity.plist in Resources */ = {isa = PBXBuildFile; fileRef = 180BB1D81FE7E7DC00604F5D /* XYAddressCity.plist */; };
+		180BB1E91FE7E7DD00604F5D /* XYAddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 180BB1DA1FE7E7DC00604F5D /* XYAddressModel.m */; };
+		180BB1EA1FE7E7DD00604F5D /* XYAddressPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 180BB1DC1FE7E7DC00604F5D /* XYAddressPickerView.m */; };
+		180BB1EB1FE7E7DD00604F5D /* XYBasePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 180BB1DE1FE7E7DC00604F5D /* XYBasePickerView.m */; };
+		180BB1EC1FE7E7DD00604F5D /* XYBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 180BB1E01FE7E7DC00604F5D /* XYBaseView.m */; };
+		180BB1ED1FE7E7DD00604F5D /* XYDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 180BB1E21FE7E7DC00604F5D /* XYDatePickerView.m */; };
+		180BB1EE1FE7E7DD00604F5D /* XYPickerTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 180BB1E41FE7E7DC00604F5D /* XYPickerTextField.m */; };
+		180BB1EF1FE7E7DD00604F5D /* XYStringPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 180BB1E71FE7E7DC00604F5D /* XYStringPickerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		180BB1BE1FE7E4DE00604F5D /* XYPickerViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYPickerViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		180BB1C11FE7E4DE00604F5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		180BB1C21FE7E4DE00604F5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		180BB1C41FE7E4DE00604F5D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		180BB1C51FE7E4DE00604F5D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		180BB1C81FE7E4DE00604F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		180BB1CA1FE7E4DE00604F5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		180BB1CD1FE7E4DE00604F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		180BB1CF1FE7E4DE00604F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180BB1D01FE7E4DE00604F5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		180BB1D81FE7E7DC00604F5D /* XYAddressCity.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = XYAddressCity.plist; sourceTree = "<group>"; };
+		180BB1D91FE7E7DC00604F5D /* XYAddressModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYAddressModel.h; sourceTree = "<group>"; };
+		180BB1DA1FE7E7DC00604F5D /* XYAddressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYAddressModel.m; sourceTree = "<group>"; };
+		180BB1DB1FE7E7DC00604F5D /* XYAddressPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYAddressPickerView.h; sourceTree = "<group>"; };
+		180BB1DC1FE7E7DC00604F5D /* XYAddressPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYAddressPickerView.m; sourceTree = "<group>"; };
+		180BB1DD1FE7E7DC00604F5D /* XYBasePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYBasePickerView.h; sourceTree = "<group>"; };
+		180BB1DE1FE7E7DC00604F5D /* XYBasePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYBasePickerView.m; sourceTree = "<group>"; };
+		180BB1DF1FE7E7DC00604F5D /* XYBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYBaseView.h; sourceTree = "<group>"; };
+		180BB1E01FE7E7DC00604F5D /* XYBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYBaseView.m; sourceTree = "<group>"; };
+		180BB1E11FE7E7DC00604F5D /* XYDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYDatePickerView.h; sourceTree = "<group>"; };
+		180BB1E21FE7E7DC00604F5D /* XYDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYDatePickerView.m; sourceTree = "<group>"; };
+		180BB1E31FE7E7DC00604F5D /* XYPickerTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPickerTextField.h; sourceTree = "<group>"; };
+		180BB1E41FE7E7DC00604F5D /* XYPickerTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYPickerTextField.m; sourceTree = "<group>"; };
+		180BB1E51FE7E7DC00604F5D /* XYPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYPickerView.h; sourceTree = "<group>"; };
+		180BB1E61FE7E7DC00604F5D /* XYStringPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYStringPickerView.h; sourceTree = "<group>"; };
+		180BB1E71FE7E7DC00604F5D /* XYStringPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYStringPickerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180BB1BB1FE7E4DE00604F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180BB1B51FE7E4DE00604F5D = {
+			isa = PBXGroup;
+			children = (
+				180BB1C01FE7E4DE00604F5D /* XYPickerViewDemo */,
+				180BB1BF1FE7E4DE00604F5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		180BB1BF1FE7E4DE00604F5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180BB1BE1FE7E4DE00604F5D /* XYPickerViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		180BB1C01FE7E4DE00604F5D /* XYPickerViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				180BB1C11FE7E4DE00604F5D /* AppDelegate.h */,
+				180BB1C21FE7E4DE00604F5D /* AppDelegate.m */,
+				180BB1C41FE7E4DE00604F5D /* ViewController.h */,
+				180BB1C51FE7E4DE00604F5D /* ViewController.m */,
+				180BB1D71FE7E7DC00604F5D /* XYPickerView */,
+				180BB1C71FE7E4DE00604F5D /* Main.storyboard */,
+				180BB1CA1FE7E4DE00604F5D /* Assets.xcassets */,
+				180BB1CC1FE7E4DE00604F5D /* LaunchScreen.storyboard */,
+				180BB1CF1FE7E4DE00604F5D /* Info.plist */,
+				180BB1D01FE7E4DE00604F5D /* main.m */,
+			);
+			path = XYPickerViewDemo;
+			sourceTree = "<group>";
+		};
+		180BB1D71FE7E7DC00604F5D /* XYPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				180BB1D81FE7E7DC00604F5D /* XYAddressCity.plist */,
+				180BB1D91FE7E7DC00604F5D /* XYAddressModel.h */,
+				180BB1DA1FE7E7DC00604F5D /* XYAddressModel.m */,
+				180BB1DB1FE7E7DC00604F5D /* XYAddressPickerView.h */,
+				180BB1DC1FE7E7DC00604F5D /* XYAddressPickerView.m */,
+				180BB1DD1FE7E7DC00604F5D /* XYBasePickerView.h */,
+				180BB1DE1FE7E7DC00604F5D /* XYBasePickerView.m */,
+				180BB1DF1FE7E7DC00604F5D /* XYBaseView.h */,
+				180BB1E01FE7E7DC00604F5D /* XYBaseView.m */,
+				180BB1E11FE7E7DC00604F5D /* XYDatePickerView.h */,
+				180BB1E21FE7E7DC00604F5D /* XYDatePickerView.m */,
+				180BB1E31FE7E7DC00604F5D /* XYPickerTextField.h */,
+				180BB1E41FE7E7DC00604F5D /* XYPickerTextField.m */,
+				180BB1E51FE7E7DC00604F5D /* XYPickerView.h */,
+				180BB1E61FE7E7DC00604F5D /* XYStringPickerView.h */,
+				180BB1E71FE7E7DC00604F5D /* XYStringPickerView.m */,
+			);
+			path = XYPickerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180BB1BD1FE7E4DE00604F5D /* XYPickerViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180BB1D41FE7E4DE00604F5D /* Build configuration list for PBXNativeTarget "XYPickerViewDemo" */;
+			buildPhases = (
+				180BB1BA1FE7E4DE00604F5D /* Sources */,
+				180BB1BB1FE7E4DE00604F5D /* Frameworks */,
+				180BB1BC1FE7E4DE00604F5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XYPickerViewDemo;
+			productName = XYPickerViewDemo;
+			productReference = 180BB1BE1FE7E4DE00604F5D /* XYPickerViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180BB1B61FE7E4DE00604F5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = ixiyedev;
+				TargetAttributes = {
+					180BB1BD1FE7E4DE00604F5D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 180BB1B91FE7E4DE00604F5D /* Build configuration list for PBXProject "XYPickerViewDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 180BB1B51FE7E4DE00604F5D;
+			productRefGroup = 180BB1BF1FE7E4DE00604F5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180BB1BD1FE7E4DE00604F5D /* XYPickerViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180BB1BC1FE7E4DE00604F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180BB1CE1FE7E4DE00604F5D /* LaunchScreen.storyboard in Resources */,
+				180BB1E81FE7E7DD00604F5D /* XYAddressCity.plist in Resources */,
+				180BB1CB1FE7E4DE00604F5D /* Assets.xcassets in Resources */,
+				180BB1C91FE7E4DE00604F5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180BB1BA1FE7E4DE00604F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180BB1C61FE7E4DE00604F5D /* ViewController.m in Sources */,
+				180BB1D11FE7E4DE00604F5D /* main.m in Sources */,
+				180BB1EB1FE7E7DD00604F5D /* XYBasePickerView.m in Sources */,
+				180BB1C31FE7E4DE00604F5D /* AppDelegate.m in Sources */,
+				180BB1EE1FE7E7DD00604F5D /* XYPickerTextField.m in Sources */,
+				180BB1EC1FE7E7DD00604F5D /* XYBaseView.m in Sources */,
+				180BB1EF1FE7E7DD00604F5D /* XYStringPickerView.m in Sources */,
+				180BB1ED1FE7E7DD00604F5D /* XYDatePickerView.m in Sources */,
+				180BB1E91FE7E7DD00604F5D /* XYAddressModel.m in Sources */,
+				180BB1EA1FE7E7DD00604F5D /* XYAddressPickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		180BB1C71FE7E4DE00604F5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180BB1C81FE7E4DE00604F5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		180BB1CC1FE7E4DE00604F5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180BB1CD1FE7E4DE00604F5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		180BB1D21FE7E4DE00604F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		180BB1D31FE7E4DE00604F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		180BB1D51FE7E4DE00604F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XYPickerViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ixiye.XYPickerViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		180BB1D61FE7E4DE00604F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XYPickerViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ixiye.XYPickerViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180BB1B91FE7E4DE00604F5D /* Build configuration list for PBXProject "XYPickerViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180BB1D21FE7E4DE00604F5D /* Debug */,
+				180BB1D31FE7E4DE00604F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180BB1D41FE7E4DE00604F5D /* Build configuration list for PBXNativeTarget "XYPickerViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180BB1D51FE7E4DE00604F5D /* Debug */,
+				180BB1D61FE7E4DE00604F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180BB1B61FE7E4DE00604F5D /* Project object */;
+}
